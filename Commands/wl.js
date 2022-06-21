@@ -57,8 +57,8 @@ module.exports.run = async (client, message, args) => {
                 )
     
                 channel.send(new Discord.MessageEmbed() 
-                    .setTitle("Utilisation de Advert ♾ Bot")
-                    .setDescription("__Voici les commandes que vous pouvez utiliser avec Advert ♾ Bot:__")
+                    .setTitle("Utilisation de 'Spy Puber")
+                    .setDescription("__Voici les commandes que vous pouvez utiliser avec 'Spy Puber:__")
                     .addField(config.prefix + "pub token_bot", "Cette commande sert à envoyer un message à tous les membres d'un serveur.")
                     .addField(config.prefix + "puball token_bot", "Cette commande sert à envoyer un message à tous les membres des serveurs.")
                     .addField(config.prefix + "pub* token_bot", "Cette commande sert à envoyer un message à tous les membres en ligne d'un serveur.")
