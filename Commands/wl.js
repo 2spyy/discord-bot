@@ -88,14 +88,14 @@ module.exports.run = async (client, message, args) => {
             target.roles.add(config.wlrole)
             channel.send(new Discord.MessageEmbed() 
                 .setTitle(`**Bievenue dans votre salon privé, ${target.user.username}**`)
-                .setDescription(`Vous disposez maintenant de votre propre salon privé pour faire des publicités avec Advert ♾ Bot !
-                Rappelez-vous que vous devez avoir un ou plusieurs tokens de bot pour utiliser Advert ♾ Bot, si vous n'avez pas encore de token, adressez-vous à un helper pour en savoir plus.`)
+                .setDescription(`Vous disposez maintenant de votre propre salon privé pour faire des publicités avec 'Spy Puber !
+                Rappelez-vous que vous devez avoir un ou plusieurs tokens de bot pour utiliser Advert 'Spy Puber, si vous n'avez pas encore de token, adressez-vous à un helper pour en savoir plus.`)
                 .setColor(config.embedColor)
             )
 
             channel.send(new Discord.MessageEmbed() 
-                .setTitle("Utilisation de Advert ♾ Bot")
-                .setDescription("__Voici les commandes que vous pouvez utiliser avec Advert ♾ Bot:__")
+                .setTitle("Utilisation de 'Spy Puber")
+                .setDescription("__Voici les commandes que vous pouvez utiliser avec 'Spy Puber:__")
                 .addField(config.prefix + "pub token_bot", "Cette commande sert à envoyer un message à tous les membres d'un serveur.")
                 .addField(config.prefix + "puball token_bot", "Cette commande sert à envoyer un message à tous les membres des serveurs.")
                 .addField(config.prefix + "pub* token_bot", "Cette commande sert à envoyer un message à tous les membres en ligne d'un serveur.")
